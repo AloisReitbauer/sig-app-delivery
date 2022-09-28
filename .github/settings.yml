@@ -2,10 +2,10 @@ repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
 
   # The name of the repository. Changing this will rename the repository
-  name: sig-app-delivery
+  name: tag-app-delivery
 
   # A short description of the repository that will show up on GitHub
-  description: 📨🚚CNCF App Delivery SIG
+  description: 📨🚚CNCF App Delivery TAG
 
   # A URL with more information about the repository
   homepage: https://cncf.io/projects
@@ -17,18 +17,28 @@ repository:
   # role. If there are questions, please contact one of the chairs.
 collaborators:
   # TOC Liasons
-  - username: michelleN
+  - username: cdavisafc
     permission: admin
 
-  - username: monadic
+  - username: resouer
     permission: admin
+
 
   # SIG Chairs 
   - username: AloisReitbauer
     permission: admin
 
-  - username: bryanl
+  - username: Jenniferstrej
     permission: admin
     
-  - username: resouer
+  - username: hongchaodeng
     permission: admin
+
+  # Tech Leads
+    
+  - username: AlexsJones
+    permission: push
+    
+  - username: thschue
+    permission: push
+    
